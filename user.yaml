@@ -8,7 +8,7 @@ Resources:
   MyIAMUser:
     Type: "AWS::IAM::User"
     Properties:
-      UserName: kedarmugave
+      UserName: swapnali
       Groups:
         - Ref: MyIAMGroup
 
@@ -23,4 +23,4 @@ Resources:
     Properties:
       Protocol: "email"
       TopicArn: !Ref MySNSTopic
-      Endpoint: "kedarmugave123@gmail.com"
+      Endpoint: "shindeswapnali@gmail.com"
